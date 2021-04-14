@@ -1,0 +1,17 @@
+.marquee {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 5rem;
+
+  .marquee-group {
+    position: absolute;
+    border-right: 1px solid red;
+  }
+
+  .marquee-text {
+    display: inline;
+    padding: 8px;
+    top: 50%;
+  }
+}
